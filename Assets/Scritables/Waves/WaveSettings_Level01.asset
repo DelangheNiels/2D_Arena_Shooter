@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd55a5307741bae42a54ecdb1da57b59, type: 3}
+  m_Name: WaveSettings_Level01
+  m_EditorClassIdentifier: 
+  AmountOfEnemiesAlliveAtOnce: 15
+  EnemiesAlliveToSpawnMore: 10
+  EnemySpawnList:
+  - WaveIndex: 1
+    Enemy: {fileID: -8684821880240588361, guid: 401b79cab9003fc4aaa56418b509fe45, type: 3}
+  - WaveIndex: 2
+    Enemy: {fileID: 2863543211016841956, guid: ab790444a8db2924d847e18ca1497d17, type: 3}
+  - WaveIndex: 3
+    Enemy: {fileID: -8684821880240588361, guid: 7d4ea3491a5255649a9c90e1343b6abc, type: 3}
+  WaveDifficultyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3
+      value: 5
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
